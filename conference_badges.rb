@@ -1,16 +1,11 @@
 
-def badge_maker(name)
+
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+def batch_badge_creator
+  attendees.each do |name|
   "Hello, my name is #{name}."
 end
-badge_maker("Arel")
 end
-
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-speakers.each do |names|
-  puts "Hello, my name is #{names}."
-end
-
-
 
 
